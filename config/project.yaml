@@ -1,0 +1,38 @@
+dateModified: 1548698352
+email:
+  fromEmail: craft@gmail.com
+  fromName: www.craft.lordy
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  4bd27c44-3516-44f6-b7a5-5a52335667ae:
+    name: Common
+plugins:
+  podcaster:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+siteGroups:
+  9ba4a3dd-e8cf-4f22-965a-e324aa4a539e:
+    name: www.craft.lordy
+sites:
+  56f59d14-3a34-4eab-a7bb-de41b26ec05c:
+    baseUrl: $DEFAULT_SITE_URL
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: www.craft.lordy
+    primary: true
+    siteGroup: 9ba4a3dd-e8cf-4f22-965a-e324aa4a539e
+    sortOrder: 1
+system:
+  edition: solo
+  live: true
+  name: www.craft.lordy
+  schemaVersion: 3.1.23
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
